@@ -1,0 +1,20 @@
+.dashboard_view {
+  /* margin-left: 20%; */
+}
+.active_item {
+  /* border: 1px solid #000; */
+  border-radius: 10px;
+  width: calc((100% - 4%) / 4);
+}
+
+/* .active_item svg {
+  width: 51px;
+  height: 90px;
+} */
+.active_item img {
+  margin-bottom: 15px;
+  width: 80px;
+  height: 70px;
+}
+.active_item {
+}

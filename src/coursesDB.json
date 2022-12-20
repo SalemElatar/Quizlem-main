@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "Reacting- Udacity",
+    "active": true,
+    "progress": "65%",
+    "avTests": 5,
+    "type": "self",
+    "icon": "faDesktop",
+    "lessons": [
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      },
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      }
+    ],
+    "pinnedNote": "Next Assigment deadline is Apr 25th "
+  },
+  {
+    "id": 1,
+    "title": "Reacting- Udacity",
+    "active": true,
+    "progress": "65%",
+    "avTests": 5,
+    "type": "shared",
+    "icon": "faDesktop",
+    "lessons": [
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      },
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      }
+    ],
+    "pinnedNote": "Next Assigment deadline is Apr 25th "
+  },
+  {
+    "id": 2,
+    "title": "Reacting- Udacity",
+    "active": true,
+    "progress": "65%",
+    "avTests": 5,
+    "type": "self",
+    "icon": "faDesktop",
+    "lessons": [
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      },
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      }
+    ],
+    "pinnedNote": "Next Assigment deadline is Apr 25th "
+  },
+  {
+    "id": 3,
+    "title": "React Fundamentals - Udacity",
+    "active": true,
+    "progress": "65%",
+    "avTests": 5,
+    "type": "shared",
+    "icon": "faDesktop",
+    "lessons": [
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      },
+      {
+        "title": "Learn how to use React hooks",
+        "id": 0,
+        "lessonBody": "lorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clorlorem ipsum clorlorem ipsum clor lorem ipsum clorlorem ipsum clor lorem ipsum clor lorem ipsum clorlorem ipsum clor"
+      }
+    ],
+    "pinnedNote": "Next Assigment deadline is Apr 23th "
+  }
+]

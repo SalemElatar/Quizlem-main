@@ -1,0 +1,87 @@
+/* ################################# */
+/* Nav */
+/* ################################# */
+.main-nav {
+  background: #3a8c7b; /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(
+    to top,
+    #3a8c7b,
+    #1b5f51
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3a8c7b,
+    #1b5f51
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main-nav .logo {
+  cursor: pointer;
+}
+.main-nav ul li {
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 0;
+}
+.main-nav ul .login_btn {
+  color: #216859 !important;
+  border: 1px solid #fff;
+  background-color: #e8e8e8;
+  padding: 6px 26px;
+}
+
+.main-nav ul li a:hover {
+  color: #91e7ac !important;
+}
+
+/* ################################# */
+/* Header */
+/* ################################# */
+.mainheader .header-about {
+  margin-top: 110px !important;
+}
+.mainheader {
+  color: rgb(243, 241, 241);
+  background: #3a8c7b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #3a8c7b,
+    #1b5f51
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #3a8c7b,
+    #1b5f51
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 0 0 60% 64%/0 0 111% 0;
+}
+
+.mainheader .hero_p {
+  color: #95cfa8;
+}
+.mainheader .call_action_hold {
+  margin-top: 80px !important;
+}
+.mainheader .call_action {
+  background-color: #fff;
+  color: #425f57 !important;
+  box-shadow: 3px 2px 24px #64a190;
+  transition: all 0.3s ease-in-out;
+}
+.mainheader .call_action:hover {
+  background-color: #297363;
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+.mainheader .down_arrow {
+  margin-top: 11rem;
+  cursor: pointer;
+}
+
+/* ################################# */
+/* Features */
+/* ################################# */
+
+.mainpage .features {
+  margin-top: 100px;
+}
