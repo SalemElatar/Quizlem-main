@@ -24,7 +24,7 @@
   {
     "id": 1,
     "title": "Reacting- Udacity",
-    "active": true,
+    "active": false,
     "progress": "65%",
     "avTests": 5,
     "type": "shared",

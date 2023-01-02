@@ -10,7 +10,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "JSX",
-        "id": "0"
+        "id": "0",
+        "neededTime": 60
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -18,7 +19,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "jQuery",
-        "id": "1"
+        "id": "1",
+        "neededTime": 60
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -26,7 +28,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "2"
+        "id": "2",
+        "neededTime": 60
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -34,7 +37,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "3"
+        "id": "3",
+        "neededTime": 60
       }
     ]
   },
@@ -49,7 +53,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "JSX",
-        "id": "0"
+        "id": "0",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -57,7 +62,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "jQuery",
-        "id": "1"
+        "id": "1",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -65,7 +71,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "2"
+        "id": "2",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -73,7 +80,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "3"
+        "id": "3",
+        "neededTime": 5
       }
     ]
   },
@@ -88,7 +96,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "JSX",
-        "id": "0"
+        "id": "0",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -96,7 +105,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "jQuery",
-        "id": "1"
+        "id": "1",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -104,7 +114,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "2"
+        "id": "2",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -112,7 +123,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "3"
+        "id": "3",
+        "neededTime": 5
       }
     ]
   },
@@ -127,7 +139,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "JSX",
-        "id": "0"
+        "id": "0",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -135,7 +148,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "jQuery",
-        "id": "1"
+        "id": "1",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -143,7 +157,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "2"
+        "id": "2",
+        "neededTime": 5
       },
       {
         "quesTitle": "we render Element and components in react using ...",
@@ -151,7 +166,8 @@
         "answerB": "jQuery",
         "answerC": "JSX",
         "rightAnswer": "bable",
-        "id": "3"
+        "id": "3",
+        "neededTime": 5
       }
     ]
   }

@@ -1,21 +1,28 @@
 // import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import ActiveTag from "../../../../../quizlem-react/src/components/ActiveTag";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import * as iconin from "@fortawesome/free-solid-svg-icons";
+import ActiveTag from "../ActiveTag";
 import FolderIcn from "./folder.png";
+import DecideActive from "./DecideActive";
 
 const CourseItem = ({ subj }) => {
+  const handleing = (e) => {
+    e.preventDefault();
+  };
+  const EnhancedComponent = DecideActive(
+    ActiveTag,
+    subj.active ? "green" : "blue"
+  );
+
   // const [isActive, setIsActive] = useState(course.active);
   // const toggleActive = () => {
   //   isActive ? setIsActive(true) : setIsActive(false);
   // };
-  // console.log(iconin.faArrowLeftRotate);
 
   return (
     <Link to={`${subj.title}`} className="active_item p-2 mb-2">
       <img src={FolderIcn} />
-      <h6>{subj.title}</h6>
+      <h6 onContextMenu={(e) => handleing(e)}>{subj.title}</h6>
+      <EnhancedComponent />
     </Link>
   );
 };
