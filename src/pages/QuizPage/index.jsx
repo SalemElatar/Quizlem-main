@@ -7,9 +7,10 @@ import Timer from "./Timer";
 const QuizPage = () => {
   let { quizpage } = useParams();
   const thisQuiz = allQuizes.find((quizItem) => {
-    return quizItem.id === quizpage;
+    return quizItem.id == quizpage;
   });
 
+  console.log(thisQuiz);
   const [currentItem, setCurrentItem] = useState(0);
   const [item, setItem] = useState({});
   const [timer, setTimer] = useState(0);

@@ -1,6 +1,6 @@
 import "./sidebar.css";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import CoursesDB from "../../coursesDB.json";
+import quizesDB from "../../quizesDB.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -29,23 +29,18 @@ const sidebar = () => {
           </Link>
         </div>
 
-        {CoursesDB.map((subj) => {
+        {quizesDB.map((subj) => {
           return (
-            <li className="item" id={`subj_item_${subj.id}`} title={subj.title}>
+            <li
+              key={subj.id}
+              className="item"
+              id={`subj_item_${subj.id}`}
+              title={subj.quizTitle}
+            >
               <Link className="sub-btn" onClick={() => {}}>
-                <FontAwesomeIcon icon={faDesktop} /> {subj.title}
+                <FontAwesomeIcon icon={faDesktop} /> {subj.quizTitle}
                 <FontAwesomeIcon icon={faAngleRight} className="dropdown" />
               </Link>
-
-              <div className="sub-menu">
-                {subj.lessons.map((lesson) => {
-                  return (
-                    <Link to="" className="sub-item">
-                      {lesson.title}
-                    </Link>
-                  );
-                })}
-              </div>
             </li>
           );
         })}

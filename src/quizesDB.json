@@ -1,9 +1,10 @@
 [
   {
-    "quizTitle": "React Fundimantals1",
-    "id": "0",
+    "quizTitle": "React Fundimantals10",
+    "id": 0,
     "active": true,
     "type": "shared",
+    "subject": "javaScript",
     "subjCourseId": 0,
     "questonsList": [
       {
@@ -46,9 +47,10 @@
   },
   {
     "quizTitle": "React Fundimantals1",
-    "id": "1",
+    "id": 1,
     "active": true,
     "type": "self",
+    "subject": "javaScript",
 
     "subjCourseId": 0,
     "questonsList": [
@@ -92,9 +94,10 @@
   },
   {
     "quizTitle": "React Fundimantals1",
-    "id": "2",
+    "id": 2,
     "active": false,
     "type": "self",
+    "subject": "javaScript",
 
     "subjCourseId": 2,
     "questonsList": [
@@ -138,9 +141,10 @@
   },
   {
     "quizTitle": "React Fundimantals1",
-    "id": "3",
+    "id": 3,
     "active": true,
     "type": "self",
+    "subject": "javaScript",
 
     "subjCourseId": 2,
     "questonsList": [
