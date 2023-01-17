@@ -14,3 +14,25 @@
 .header .backward {
   cursor: pointer;
 }
+.dashboard .home_page_h::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: rgb(39, 183, 39);
+  position: absolute;
+  border-radius: 50%;
+  top: 40%;
+  animation: lighinOut 2s ease-in-out infinite;
+}
+
+@keyframes lighinOut {
+  0% {
+    background-color: rgb(67, 67, 67);
+  }
+  50% {
+    background-color: rgb(39, 183, 39);
+  }
+  100% {
+    background-color: rgb(67, 67, 67);
+  }
+}

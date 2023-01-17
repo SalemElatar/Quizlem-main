@@ -20,7 +20,8 @@ body {
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
   height: 2500px;
   font-size: 16px;
-  color: #030407;
+  color: #fff;
+  background-color: #222222;
 }
 
 code {

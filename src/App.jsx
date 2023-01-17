@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 import CoursesDB from "./coursesDB.json";
-import "./App.css";
 import Public from "./pages/public";
 import Dashboard from "./pages/dashboard/index";
 import SignUp from "./pages/sign-up/SignUp";

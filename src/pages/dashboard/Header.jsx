@@ -1,11 +1,11 @@
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import "./header.css";
 import { useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const Header = () => {
+  let { username } = useParams();
   const navigate = useNavigate();
 
   return (
@@ -16,7 +16,8 @@ const Header = () => {
         </div>
       </div>
       <div className="header_img">
-        <img src="https://i.imgur.com/hczKIze.jpg" alt="" />
+        <img src="https://i.imgur.com/hczKIze.jpg" alt="" className="me-2" />
+        <span>{username}</span>
       </div>
     </header>
   );

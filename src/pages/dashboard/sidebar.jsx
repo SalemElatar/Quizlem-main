@@ -16,7 +16,7 @@ const sidebar = () => {
     <>
       <header>
         <div className="close-btn">
-          <Link to="/">
+          <Link to="/dashboard/name">
             <Logo className="logo" />
           </Link>
         </div>

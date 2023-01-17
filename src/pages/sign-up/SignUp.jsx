@@ -1,9 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
-// import Logo from "../../components/Logo";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Usersdb from "../../users.json";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import "./signUp.css";
 
@@ -19,6 +17,7 @@ const SignUp = () => {
       (signedUser.password == e.target.children[6].value) &
       (signedUser.userName == e.target.children[4].value)
     ) {
+      localStorage.setItem("name", signedUser.userName);
       navigate(`/dashboard/${signedUser.userName}`);
     }
 

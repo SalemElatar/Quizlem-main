@@ -1,5 +1,5 @@
 const ActiveTag = () => {
-  return <span className="active_tag">asdsd</span>;
+  return <span className="active_tag">active</span>;
 };
 
 export default ActiveTag;

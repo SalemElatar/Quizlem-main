@@ -1,15 +1,24 @@
 import { Routes, Route /*useLocation*/ } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PublicNav from "./PublicNav";
 import HomePage from "./home/Home";
 import AboutPage from "./About";
 import "./public.css";
+import { useEffect } from "react";
 
 function Public() {
+  const navigate = useNavigate();
+
   // const currentLoc = useLocation();
   // if (currentLoc) {
   //   console.log(document.getElementById("body").classList);
   //   document.getElementById("body").classList.add("bg_color");
   // }
+  useEffect(() => {
+    if (localStorage.getItem("name")) {
+      navigate(`/dashboard/${localStorage.getItem("name")}`);
+    }
+  }, []);
 
   return (
     <div className={`public`}>

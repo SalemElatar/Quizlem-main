@@ -10,32 +10,27 @@ const QuizPage = () => {
     return quizItem.id === quizpage;
   });
 
-  const [countRight, setCountRight] = useState(0);
-  const [yourResult, setYourResult] = useState("");
-
-  const addToCounter = (e) => {
-    setCountRight(countRight + 1);
-    console.log(e);
-    e.target.nextSibling.classList.add("correct_ans");
-  };
-  const removeFromCounter = () => {
-    setCountRight(countRight - 1);
-  };
-  const handleSubmit = () => {
-    console.log(
-      document.querySelectorAll('input[type="radio"]').filter((rad) => {
-        return rad.checked;
-      })
-    );
-    // console.log(countRight);
-    // if (countRight > thisQuiz.questonsList.length / 2) {
-    //   setYourResult("you did it");
-    // } else {
-    //   setYourResult("");
-    // }
-  };
-
+  const [currentItem, setCurrentItem] = useState(0);
+  const [item, setItem] = useState({});
   const [timer, setTimer] = useState(0);
+  // const [finished, setFinished] = useState(false);
+
+  function nextItem() {
+    setCurrentItem(currentItem + 1);
+    setItem(thisQuiz.questonsList[currentItem]);
+  }
+
+  function preItem() {
+    setCurrentItem(currentItem - 1);
+    setItem(thisQuiz.questonsList[currentItem]);
+  }
+
+  console.log(thisQuiz.questonsList.length);
+
+  useEffect(() => {
+    handleTimer();
+    setItem(thisQuiz.questonsList[0]);
+  }, []);
 
   const handleTimer = () => {
     let neededTimeArr = thisQuiz.questonsList.map((t) => {
@@ -44,40 +39,26 @@ const QuizPage = () => {
     let sumOfSec = neededTimeArr.reduce((tot, cur) => {
       return tot + cur;
     });
-
-    if (sumOfSec > 60) {
-    }
-
-    // setTimer(sumOfSec > 60 ? sumOfSec / 60 : sumOfSec);
     setTimer(sumOfSec);
   };
-
-  useEffect(() => {
-    handleTimer();
-  }, []);
 
   return (
     <div className="quiz_page">
       <h4>{thisQuiz.quizTitle}</h4>
       <span>{` ${thisQuiz.questonsList.length} Questions`}</span>
-
       <Timer seconds={timer} />
-
-      <ul className="quetions_list">
-        {thisQuiz.questonsList.map((question, index) => {
-          return (
-            <Question
-              key={index}
-              question={question}
-              addToCounter={addToCounter}
-              removeFromCounter={removeFromCounter}
-            />
-          );
-        })}
-      </ul>
-      <button onClick={handleSubmit}>Submit Answers</button>
-
-      <span>{yourResult}</span>
+      <div className="question_wrap">
+        <Question currentItem={item} />;
+      </div>
+      <button onClick={preItem} disabled={currentItem == 0}>
+        Back
+      </button>
+      <button
+        onClick={nextItem}
+        disabled={currentItem == thisQuiz.questonsList.length}
+      >
+        Next
+      </button>
     </div>
   );
 };

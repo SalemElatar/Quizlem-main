@@ -2,6 +2,8 @@
   {
     "quizTitle": "React Fundimantals1",
     "id": "0",
+    "active": true,
+    "type": "shared",
     "subjCourseId": 0,
     "questonsList": [
       {
@@ -14,7 +16,7 @@
         "neededTime": 60
       },
       {
-        "quesTitle": "we render Element and components in react using ...",
+        "quesTitle": "we rendeusing ...",
         "answerA": "bable",
         "answerB": "jQuery",
         "answerC": "JSX",
@@ -23,7 +25,7 @@
         "neededTime": 60
       },
       {
-        "quesTitle": "we render Element and components in react using ...",
+        "quesTitle": "s in react using ...",
         "answerA": "bable",
         "answerB": "jQuery",
         "answerC": "JSX",
@@ -32,7 +34,7 @@
         "neededTime": 60
       },
       {
-        "quesTitle": "we render Element and components in react using ...",
+        "quesTitle": "wonents in react using ...",
         "answerA": "bable",
         "answerB": "jQuery",
         "answerC": "JSX",
@@ -45,6 +47,9 @@
   {
     "quizTitle": "React Fundimantals1",
     "id": "1",
+    "active": true,
+    "type": "self",
+
     "subjCourseId": 0,
     "questonsList": [
       {
@@ -88,6 +93,9 @@
   {
     "quizTitle": "React Fundimantals1",
     "id": "2",
+    "active": false,
+    "type": "self",
+
     "subjCourseId": 2,
     "questonsList": [
       {
@@ -131,6 +139,9 @@
   {
     "quizTitle": "React Fundimantals1",
     "id": "3",
+    "active": true,
+    "type": "self",
+
     "subjCourseId": 2,
     "questonsList": [
       {
